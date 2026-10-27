@@ -6,22 +6,30 @@ chapter: false
 pre: " <b> 4. </b> "
 ---
 
-During my internship, I attended professional events to learn more about cloud, AI and practical engineering experience.
+During my internship, I attended two technology events to learn about cloud, AI and practical engineering experience from the community.
 
-### [Event 1: Buildrathon Kickoff](4.1-Event1/)
+### [Event 1: Buildrathon Kickoff](4.1-event1/)
 
-- **Event:** Buildrathon Kickoff: Code the Future with CMC Global
-- **Time:** 9:00 a.m., 26 September 2026 (UTC+7)
-- **Location:** Bitexco Financial Tower, Ho Chi Minh City
-- **Role:** Attendee
-- **Topics:** Introduction to Buildrathon and a practical example of an AI-powered Slack bot architecture.
+&emsp;**Event name:** Buildrathon Kickoff: Code the Future with CMC Global
 
-### [Event 2: AWS Cloud and AI Day Hanoi — HCMC Watch Party](4.2-Event2/)
+&emsp;**Time:** 9:00 a.m., 26 September 2026 (UTC+7)
 
-- **Event:** AWS Cloud and AI Day Hanoi 2026 — HCMC Watch Party
-- **Date:** 29 September 2026
-- **Location:** 26th floor, Bitexco Financial Tower, 2 Hai Trieu Street, Ho Chi Minh City
-- **Role:** Watch party attendee
-- **Topics:** Keynote sessions on cloud and AI adoption, infrastructure, invisible engineering and validating AI-assisted software.
+&emsp;**Location:** Bitexco Financial Tower, Ho Chi Minh City
 
-My check-in photos for each event will be added later. Further events will be added when their details are available.
+&emsp;**Role:** Attendee
+
+&emsp;**Topics and value:** Learned about Buildrathon and an AI-powered Slack bot architecture. The presentation illustrated how an application can be organized around request handling, processing, context management and scheduled work.
+
+### [Event 2: AWS Cloud and AI Day Hanoi 2026 — HCMC Watch Party](4.2-event2/)
+
+&emsp;**Event name:** AWS Cloud and AI Day Hanoi 2026 — HCMC Watch Party
+
+&emsp;**Date:** 29 September 2026
+
+&emsp;**Location:** Ho Chi Minh City watch party, 26th floor, Bitexco Financial Tower, 2 Hai Trieu Street
+
+&emsp;**Role:** Watch party attendee
+
+&emsp;**Topics and value:** Followed the keynote on cloud and AI adoption, infrastructure, invisible engineering and validation of AI-assisted software. A key lesson was to pair development speed with appropriate access controls, evidence-based testing and human accountability.
+
+My check-in photos for each event will be added later. Further events will be added when details are available.

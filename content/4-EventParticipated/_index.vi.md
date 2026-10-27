@@ -6,22 +6,30 @@ chapter: false
 pre: " <b> 4. </b> "
 ---
 
-Trong thời gian thực tập, tôi tham gia các sự kiện chuyên môn để tìm hiểu thêm về Cloud, AI và những kinh nghiệm triển khai trong thực tế.
+Trong thời gian thực tập, tôi đã tham gia hai sự kiện công nghệ để tìm hiểu thêm về Cloud, AI và kinh nghiệm kỹ thuật từ cộng đồng.
 
-### [Event 1: Buildrathon Kickoff](4.1-Event1/)
+### [Event 1: Buildrathon Kickoff](4.1-event1/)
 
-- **Tên sự kiện:** Buildrathon Kickoff: Code the Future with CMC Global
-- **Thời gian:** 09:00, ngày 26/09/2026 (UTC+7)
-- **Địa điểm:** Bitexco Financial Tower, TP.HCM
-- **Vai trò:** Người tham dự
-- **Nội dung:** Giới thiệu Buildrathon và chia sẻ ví dụ kiến trúc Slack bot ứng dụng AI.
+&emsp;**Tên sự kiện:** Buildrathon Kickoff: Code the Future with CMC Global
 
-### [Event 2: AWS Cloud and AI Day Hanoi — HCMC Watch Party](4.2-Event2/)
+&emsp;**Thời gian:** 09:00, ngày 26/09/2026 (UTC+7)
 
-- **Tên sự kiện:** AWS Cloud and AI Day Hanoi 2026 — HCMC Watch Party
-- **Ngày:** 29/09/2026
-- **Địa điểm:** Tầng 26, Bitexco Financial Tower, 2 Hải Triều, TP.HCM
-- **Vai trò:** Người tham dự watch party
-- **Nội dung:** Theo dõi keynote về ứng dụng Cloud và AI, hạ tầng, invisible engineering và kiểm chứng phần mềm có AI hỗ trợ.
+&emsp;**Địa điểm:** Bitexco Financial Tower, TP.HCM
 
-Ảnh check-in của từng sự kiện sẽ được bổ sung. Nội dung sự kiện tiếp theo sẽ được cập nhật khi có thông tin.
+&emsp;**Vai trò:** Người tham dự
+
+&emsp;**Nội dung và giá trị:** Tìm hiểu chương trình Buildrathon và ví dụ kiến trúc Slack bot ứng dụng AI. Bài chia sẻ giúp tôi nhìn ứng dụng theo các thành phần tiếp nhận yêu cầu, xử lý, quản lý ngữ cảnh và tác vụ theo lịch.
+
+### [Event 2: AWS Cloud and AI Day Hanoi 2026 — HCMC Watch Party](4.2-event2/)
+
+&emsp;**Tên sự kiện:** AWS Cloud and AI Day Hanoi 2026 — HCMC Watch Party
+
+&emsp;**Ngày:** 29/09/2026
+
+&emsp;**Địa điểm:** Watch party tại tầng 26, Bitexco Financial Tower, 2 Hải Triều, TP.HCM
+
+&emsp;**Vai trò:** Người tham dự watch party
+
+&emsp;**Nội dung và giá trị:** Theo dõi keynote về ứng dụng Cloud và AI, hạ tầng, invisible engineering và kiểm chứng phần mềm có AI hỗ trợ. Bài học trọng tâm là kết hợp tốc độ phát triển với quyền truy cập phù hợp, kiểm thử có bằng chứng và trách nhiệm của con người.
+
+Ảnh check-in của từng sự kiện sẽ được bổ sung. Sự kiện tiếp theo sẽ được cập nhật khi có thông tin.
