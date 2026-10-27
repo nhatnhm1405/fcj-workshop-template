@@ -1,57 +1,44 @@
 ---
 title: "Week 6 Worklog"
-date: 2024-01-01
-weight: 1
+date: 2026-10-19
+weight: 6
 chapter: false
 pre: " <b> 1.6. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
+During Week 6 (19–23 October 2026), I focused on proposal scope and coordination as tech lead. The project aims to upgrade SEAL on AWS and investigate local AI integration. The table organizes preparation activities by day; the architecture, services and demo scenario remain proposals to be implemented and validated.
 
-### Week 6 Objectives:
+### Week 6 Objectives
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+- Define the problem, inherited scope, PoC boundaries and an end-to-end demo scenario.
+- Assign proposal inputs to the frontend, backend, infrastructure and AI work areas.
+- Identify dependencies involving data, access, deployment and the AI job flow.
+- Update the technical rename and consolidate requirements for the next phase.
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Daily Worklog
 
+| Day | Work | Start Date | Completion Date | References |
+| --- | --- | --- | --- | --- |
+| Monday | Created issues for the lead, frontend, Backend 1, Backend 2 and AI work areas, describing objectives, deliverables, dependencies and proposed proposal deadlines. Opened a PR updating the README direction. | 19 October 2026 | 19 October 2026 | [Issue #4: Lead](https://github.com/nhatnhm1405/fcaj-hackathon-system/issues/4); [#5 Frontend](https://github.com/nhatnhm1405/fcaj-hackathon-system/issues/5); [#6 Backend 1](https://github.com/nhatnhm1405/fcaj-hackathon-system/issues/6); [#7 Backend 2](https://github.com/nhatnhm1405/fcaj-hackathon-system/issues/7); [#8 AI](https://github.com/nhatnhm1405/fcaj-hackathon-system/issues/8); [PR #3](https://github.com/nhatnhm1405/fcaj-hackathon-system/pull/3) |
+| Tuesday | Prepared the proposal direction by distinguishing inherited SEAL functionality from proposed AWS and AI work, and considered dependencies between data, frontend and worker components. Reviewed IAM policies and roles for workload access. | 20 October 2026 | 20 October 2026 | [Issue #4](https://github.com/nhatnhm1405/fcaj-hackathon-system/issues/4); [#6 Backend 1](https://github.com/nhatnhm1405/fcaj-hackathon-system/issues/6); [#8 AI](https://github.com/nhatnhm1405/fcaj-hackathon-system/issues/8); [IAM best practices](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html) |
+| Wednesday | Documented the problem, objectives, scope and proposed demo scenario in the lead issue. Opened and merged the SEAL-to-FCAJ technical rename PR into `develop`, covering application identifiers, configuration and documentation. | 21 October 2026 | 21 October 2026 | [Issue #4: specification and demo](https://github.com/nhatnhm1405/fcaj-hackathon-system/issues/4); [PR #10](https://github.com/nhatnhm1405/fcaj-hackathon-system/pull/10) |
+| Thursday | Reviewed the proposed architecture: frontend on S3/CloudFront, backend on EC2, data and files on RDS/S3, and SQS connecting a local AI worker. Identified job/result, access control and worker-offline questions for the team to resolve. | 22 October 2026 | 22 October 2026 | [Issue #4: proposed scenario](https://github.com/nhatnhm1405/fcaj-hackathon-system/issues/4); [Issue #7: deployment and messaging](https://github.com/nhatnhm1405/fcaj-hackathon-system/issues/7); [Issue #8: AI](https://github.com/nhatnhm1405/fcaj-hackathon-system/issues/8) |
+| Friday | Consolidated expected deliverables and dependencies across work areas, including data flow, cost estimates, security and demo validation. Recorded topics for further review before deployment rather than treating the proposal as an operating system. | 23 October 2026 | 23 October 2026 | [Issue #4: proposal](https://github.com/nhatnhm1405/fcaj-hackathon-system/issues/4); [#5 Frontend](https://github.com/nhatnhm1405/fcaj-hackathon-system/issues/5); [#6 Backend 1](https://github.com/nhatnhm1405/fcaj-hackathon-system/issues/6); [AWS Well-Architected](https://docs.aws.amazon.com/wellarchitected/latest/framework/the-pillars-of-the-framework.html) |
 
-### Week 6 Achievements:
+### Achievements
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+- Documented the problem, objectives, scope and two proposed demo scenarios in the lead issue.
+- Created issues to divide proposal inputs by role and identify dependencies between contributors.
+- Merged the technical rename PR into `develop`; it had not thereby been merged into `main`.
+- Identified directions for AWS deployment and local AI; the end-to-end demo and infrastructure still need implementation and testing.
 
-* Successfully created and configured an AWS Free Tier account.
+### Lessons Learned
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+- A proposal should distinguish existing functionality, planned implementation and evidence needed to validate results.
+- Each contributor's work needs clear deliverables and dependencies to support integration.
+- A local AI architecture should consider worker downtime, access permissions and job tracking.
+- Security and cost need attention during design.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+### Next Steps
 
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+Continue developing the proposal, the team's own architecture, the job/result contract and the deployment plan. Track progress through issues and test each part before concluding that the integration works.
