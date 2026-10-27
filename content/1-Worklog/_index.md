@@ -22,9 +22,9 @@ Typically, and as a standard, a worklog is carried out over about 3 months (thro
 
 **Week 4:** [Storage, S3, CloudFront and AWS Backup](1.4-week4/)
 
-**Week 5:** [Doing task D...](1.5-week5/)
+**Week 5:** [Project kickoff and AWS security foundations](1.5-week5/)
 
-**Week 6:** [Doing task E...](1.6-week6/)
+**Week 6:** [Proposal planning and project coordination](1.6-week6/)
 
 **Week 7:** [Doing task G...](1.7-week7/)
 
