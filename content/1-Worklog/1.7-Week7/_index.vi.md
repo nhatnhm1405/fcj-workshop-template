@@ -1,59 +1,40 @@
 ---
 title: "Worklog Tuần 7"
-date: 2024-01-01
-weight: 1
+date: 2026-10-26
+weight: 7
 chapter: false
 pre: " <b> 1.7. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
+Tuần 7 thực tập (26–30/10/2026) tương ứng với **Week 2 của dự án** FCAJ Hackathon System. Tôi tiếp tục vai trò tech lead, chuẩn bị chuyển từ khảo sát và đề xuất sang giai đoạn triển khai. Các mục tiêu dưới đây dựa trên các issue của dự án; kết quả thực tế sẽ được cập nhật khi có minh chứng.
 
-### Mục tiêu tuần 7:
+### Mục tiêu tuần 7
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+- Hoàn thiện proposal, kế hoạch kiến trúc và phân công các phần việc triển khai.
+- Điều phối các phụ thuộc giữa frontend, backend, hạ tầng AWS và AI local.
+- Hướng đến một luồng tích hợp tối thiểu có thể kiểm thử, bắt đầu bằng worker mock.
+- Theo dõi quyền truy cập, ngân sách, blocker và minh chứng bàn giao.
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Nhật ký công việc theo ngày
 
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --- | --- | --- | --- |
+| 2 | Tạo issue lead và bốn issue cho frontend, Backend 1, Backend 2 và AI nhằm phân công giai đoạn triển khai. Trong issue lead, ghi nhận đã soạn proposal và kế hoạch vẽ kiến trúc; việc đưa tài liệu lên nơi làm việc chung vẫn đang chờ. | 26/10/2026 | 26/10/2026 | [Issue #11: Lead](https://github.com/nhatnhm1405/fcaj-hackathon-system/issues/11); [#12 Frontend](https://github.com/nhatnhm1405/fcaj-hackathon-system/issues/12); [#13 Backend 1](https://github.com/nhatnhm1405/fcaj-hackathon-system/issues/13); [#14 Backend 2](https://github.com/nhatnhm1405/fcaj-hackathon-system/issues/14); [#15 AI](https://github.com/nhatnhm1405/fcaj-hackathon-system/issues/15) |
+| 3 | [CẦN XÁC NHẬN: cập nhật công việc và kết quả thực tế ngày 27/10.] | 27/10/2026 | — | [Issue #11](https://github.com/nhatnhm1405/fcaj-hackathon-system/issues/11) |
+| 4 | [CẦN CẬP NHẬT: ghi nhận công việc thực tế sau ngày 28/10.] | 28/10/2026 | — | [Issue #11](https://github.com/nhatnhm1405/fcaj-hackathon-system/issues/11) |
+| 5 | [CẦN CẬP NHẬT: ghi nhận công việc thực tế sau ngày 29/10.] | 29/10/2026 | — | [Issue #11](https://github.com/nhatnhm1405/fcaj-hackathon-system/issues/11) |
+| 6 | [CẦN CẬP NHẬT: ghi nhận công việc thực tế sau ngày 30/10.] | 30/10/2026 | — | [Issue #11](https://github.com/nhatnhm1405/fcaj-hackathon-system/issues/11) |
 
-### Kết quả đạt được tuần 7:
+### Kết quả đã ghi nhận
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+- Có issue lead và bốn issue triển khai với mục tiêu, người phụ trách và tiêu chí bàn giao.
+- Issue lead ghi nhận proposal và kế hoạch vẽ kiến trúc đã được soạn; tài liệu chưa được xác nhận đã chia sẻ cho cả nhóm.
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+### Công việc dự kiến
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+- Chia sẻ tài liệu, phối hợp hoàn thiện sơ đồ runtime và thống nhất contract job/result.
+- Phối hợp nhóm triển khai hạ tầng và pipeline, kết nối frontend và API job.
+- Kiểm thử luồng frontend → backend → RDS/S3 → SQS → worker mock → kết quả; phần tích hợp và demo chưa được xác nhận hoàn thành.
+- Theo dõi benchmark AI local, quyền tài khoản, ngân sách và blocker.
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+Nguồn: [Issue #11](https://github.com/nhatnhm1405/fcaj-hackathon-system/issues/11), [#12](https://github.com/nhatnhm1405/fcaj-hackathon-system/issues/12), [#13](https://github.com/nhatnhm1405/fcaj-hackathon-system/issues/13), [#14](https://github.com/nhatnhm1405/fcaj-hackathon-system/issues/14), [#15](https://github.com/nhatnhm1405/fcaj-hackathon-system/issues/15).

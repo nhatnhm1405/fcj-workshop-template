@@ -1,57 +1,40 @@
 ---
 title: "Week 7 Worklog"
-date: 2024-01-01
-weight: 1
+date: 2026-10-26
+weight: 7
 chapter: false
 pre: " <b> 1.7. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
+Internship Week 7 (26–30 October 2026) corresponds to **Week 2 of the FCAJ Hackathon System project**. I continue as tech lead, preparing the transition from research and proposals to implementation. The objectives below come from project issues; actual results will be updated when evidence is available.
 
-### Week 7 Objectives:
+### Week 7 Objectives
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+- Complete the proposal, architecture plan and implementation assignments.
+- Coordinate dependencies across frontend, backend, AWS infrastructure and local AI.
+- Work toward a testable minimum integration flow, starting with a mock worker.
+- Track access, budget, blockers and handover evidence.
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Daily Worklog
 
+| Day | Work | Start Date | Completion Date | References |
+| --- | --- | --- | --- | --- |
+| Monday | Created a lead issue and four issues for frontend, Backend 1, Backend 2 and AI to assign the implementation phase. The lead issue records that the proposal and architecture drawing plan were prepared; sharing the files in the team workspace remains pending. | 26 October 2026 | 26 October 2026 | [Issue #11: Lead](https://github.com/nhatnhm1405/fcaj-hackathon-system/issues/11); [#12 Frontend](https://github.com/nhatnhm1405/fcaj-hackathon-system/issues/12); [#13 Backend 1](https://github.com/nhatnhm1405/fcaj-hackathon-system/issues/13); [#14 Backend 2](https://github.com/nhatnhm1405/fcaj-hackathon-system/issues/14); [#15 AI](https://github.com/nhatnhm1405/fcaj-hackathon-system/issues/15) |
+| Tuesday | [TO CONFIRM: add actual work and outcomes for 27 October.] | 27 October 2026 | — | [Issue #11](https://github.com/nhatnhm1405/fcaj-hackathon-system/issues/11) |
+| Wednesday | [TO UPDATE: record actual work after 28 October.] | 28 October 2026 | — | [Issue #11](https://github.com/nhatnhm1405/fcaj-hackathon-system/issues/11) |
+| Thursday | [TO UPDATE: record actual work after 29 October.] | 29 October 2026 | — | [Issue #11](https://github.com/nhatnhm1405/fcaj-hackathon-system/issues/11) |
+| Friday | [TO UPDATE: record actual work after 30 October.] | 30 October 2026 | — | [Issue #11](https://github.com/nhatnhm1405/fcaj-hackathon-system/issues/11) |
 
-### Week 7 Achievements:
+### Results Recorded
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+- Created a lead issue and four implementation issues with objectives, owners and handover criteria.
+- The lead issue records that the proposal and architecture drawing plan were prepared; team-wide access has not yet been confirmed.
 
-* Successfully created and configured an AWS Free Tier account.
+### Planned Work
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+- Share the documents, coordinate the runtime diagram and agree on the job/result contract.
+- Coordinate infrastructure and pipeline implementation, and connect the frontend and job API.
+- Test the frontend → backend → RDS/S3 → SQS → mock worker → result flow; integration and demo completion remain unconfirmed.
+- Track the local AI benchmark, account permissions, budget and blockers.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+Sources: [Issue #11](https://github.com/nhatnhm1405/fcaj-hackathon-system/issues/11), [#12](https://github.com/nhatnhm1405/fcaj-hackathon-system/issues/12), [#13](https://github.com/nhatnhm1405/fcaj-hackathon-system/issues/13), [#14](https://github.com/nhatnhm1405/fcaj-hackathon-system/issues/14), [#15](https://github.com/nhatnhm1405/fcaj-hackathon-system/issues/15).
