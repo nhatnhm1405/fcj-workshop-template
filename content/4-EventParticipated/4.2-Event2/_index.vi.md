@@ -1,125 +1,81 @@
 ---
-title: "Event 2"
-date: 2024-01-01
-weight: 1
+title: "AWS Cloud and AI Day Hanoi 2026 — HCMC Watch Party"
+date: 2026-09-29
+weight: 2
 chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+### Thông tin sự kiện
 
-# Bài thu hoạch “GenAI-powered App-DB Modernization workshop”
+| Nội dung | Chi tiết |
+| --- | --- |
+| **Sự kiện** | AWS Cloud and AI Day Hanoi 2026 |
+| **Ngày** | 29/09/2026 |
+| **Thời gian chương trình** | 08:00–17:00 (UTC+7) |
+| **Hình thức** | Watch party tại TP.HCM, theo dõi chương trình phát từ Hà Nội |
+| **Địa điểm tham dự** | Tầng 26, Bitexco Financial Tower, 2 Hải Triều, TP.HCM |
+| **Vai trò** | Người tham dự watch party |
+| **Nguồn** | [Trang sự kiện AWS](https://aws.amazon.com/vi/events/cloud-day-hanoi/) · [Thông tin watch party](https://apj.awsevents.com/sites/aws-cloud-day-hanoi-watch-party-attendee) |
 
-### Mục Đích Của Sự Kiện
+Tôi tham gia watch party tại TP.HCM và theo dõi keynote phát từ Hà Nội. Các phần chia sẻ đề cập đến ứng dụng Cloud và AI trong doanh nghiệp, nền tảng vận hành dịch vụ, bảo mật và yêu cầu kiểm chứng khi AI tham gia vào quá trình phát triển phần mềm.
 
-- Chia sẻ best practices trong thiết kế ứng dụng hiện đại
-- Giới thiệu phương pháp DDD và event-driven architecture
-- Hướng dẫn lựa chọn compute services phù hợp
-- Giới thiệu công cụ AI hỗ trợ development lifecycle
+### Diễn giả keynote
 
-### Danh Sách Diễn Giả
+| Diễn giả | Vai trò được giới thiệu | Chủ đề |
+| --- | --- | --- |
+| Hoàng Minh | Thứ trưởng Bộ Khoa học và Công nghệ | Hạ tầng số, năng lực tính toán và hệ sinh thái Cloud/AI. |
+| Jennifer Wicks | Đại sứ Mỹ tại Việt Nam | Hợp tác công nghệ và vai trò của Cloud. |
+| Eric Yeo | Country General Manager Malaysia, Vietnam, Indochina, AWS | Cloud/AI, ví dụ khách hàng, hạ tầng và kỹ năng. |
+| Dr. Jens Lottner | CEO, Techcombank | Ứng dụng AI trong quy trình doanh nghiệp và năng lực nhân sự. |
+| Dr. Werner Vogels | CTO, Amazon.com | Invisible engineering và các quyết định thiết kế nền tảng. |
+| Mai Le | Director of Product Management, Katalon | Kiểm chứng chất lượng phần mềm khi AI tăng tốc phát triển. |
 
-- **Jignesh Shah** - Director, Open Source Databases
-- **Erica Liu** - Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** - Assc. Specialist SA, Serverless Amazon Web Services
+### Nội dung nổi bật
 
-### Nội Dung Nổi Bật
+#### Hạ tầng số và hệ sinh thái Cloud/AI
 
-#### Đưa ra các ảnh hưởng tiêu cực của kiến trúc ứng dụng cũ
+Phần khai mạc đặt AI trong mối liên hệ với hạ tầng tính toán, nhân lực và hợp tác giữa doanh nghiệp, cơ quan nhà nước, trường đại học và các tổ chức nghiên cứu. Năng lực Cloud có vai trò hỗ trợ chuyển đổi số và đổi mới công nghệ. Phần tóm tắt phát biểu khai mạc cũng được đối chiếu với [bài viết của Bộ Khoa học và Công nghệ](https://mst.gov.vn/ai-viet-nam-tu-mo-rong-ha-tang-den-bai-toan-bien-cong-nghe-thanh-gia-tri-19726093007364899.htm).
 
-- Thời gian release sản phẩm lâu → Mất doanh thu/bỏ lỡ cơ hội
-- Hoạt động kém hiệu quả → Mất năng suất, tốn kém chi phí
-- Không tuân thủ các quy định về bảo mật → Mất an ninh, uy tín
+#### Bắt đầu từ bài toán khách hàng
 
-#### Chuyển đổi sang kiến trúc ứng dụng mới - Microservice Architecture
+Các ví dụ về ứng dụng Cloud và AI cho thấy cần xác định vấn đề cụ thể, dữ liệu và kết quả cần đo trước khi chọn dịch vụ. Những tình huống được giới thiệu liên quan đến phân tích thông tin y tế, theo dõi hàng hóa và hoạt động nông nghiệp.
 
-Chuyển đổi thành hệ thống modular – từng chức năng là một **dịch vụ độc lập** giao tiếp với nhau qua **sự kiện** với 3 trụ cột cốt lõi:
+#### AI trong quy trình doanh nghiệp
 
-- **Queue Management**: Xử lý tác vụ bất đồng bộ
-- **Caching Strategy:** Tối ưu performance
-- **Message Handling:** Giao tiếp linh hoạt giữa services
+Phần trình bày của Techcombank đề cập đến việc đưa AI vào các bước làm việc thay vì chỉ bổ sung một công cụ độc lập. Các chủ đề gồm phối hợp yêu cầu phần mềm với phát triển và kiểm thử, hỗ trợ xử lý sự cố, quản trị quyền truy cập, lựa chọn mô hình và đào tạo nhân sự.
 
-#### Domain-Driven Design (DDD)
+#### Invisible engineering
 
-- **Phương pháp 4 bước**: Xác định domain events → sắp xếp timeline → identify actors → xác định bounded contexts
-- **Case study bookstore**: Minh họa cách áp dụng DDD thực tế
-- **Context mapping**: 7 patterns tích hợp bounded contexts
+Dr. Werner Vogels trình bày những quyết định kỹ thuật nằm phía sau dịch vụ: hiểu mẫu truy cập dữ liệu, cân nhắc hiệu năng, cách ly và độ tin cậy. Các ví dụ về AWS Nitro System, Lambda và Firecracker giúp nhìn rõ hơn những lớp nền tảng thường không hiển thị với người dùng. Nội dung về Amazon Time Sync Service và ClockBound mở rộng chủ đề sang thời gian và sai số trong hệ thống phân tán.
 
-#### Event-Driven Architecture
+#### Kiểm chứng phần mềm khi dùng AI
 
-- **3 patterns tích hợp**: Publish/Subscribe, Point-to-point, Streaming
-- **Lợi ích**: Loose coupling, scalability, resilience
-- **So sánh sync vs async**: Hiểu rõ trade-offs (sự đánh đổi)
+Phần chia sẻ của Katalon nhấn mạnh khoảng cách có thể xuất hiện khi tốc độ tạo thay đổi cao hơn khả năng kiểm thử. Để đánh giá kết quả, nhóm phát triển cần liên hệ yêu cầu với thay đổi mã nguồn, ca kiểm thử, lỗi và dữ liệu vận hành; các bằng chứng như test, log và telemetry hỗ trợ quyết định phát hành.
 
-#### Compute Evolution
+#### Validation debt và trách nhiệm kỹ thuật
 
-- **Shared Responsibility Model**: Từ EC2 → ECS → Fargate → Lambda
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value
-- **Functions vs Containers**: Criteria lựa chọn phù hợp
+Validation debt là phần kiểm chứng tồn đọng khi thay đổi được tạo nhanh hơn khả năng xác minh. Bài học là tốc độ phát triển cần đi cùng kiểm thử có thể truy vết, giới hạn quyền phù hợp và trách nhiệm rõ ràng của con người.
 
-#### Amazon Q Developer
+### Bài học rút ra
 
-- **SDLC automation**: Từ planning đến maintenance
-- **Code transformation**: Java upgrade, .NET modernization
-- **AWS Transform agents**: VMware, Mainframe, .NET migration
+- Xác định bài toán, đối tượng sử dụng và kết quả mong muốn trước khi chọn dịch vụ hoặc mô hình AI.
+- Đưa quản trị quyền truy cập và khả năng quan sát vào thiết kế ngay từ đầu.
+- Dùng kết quả kiểm thử, log và telemetry làm bằng chứng khi đánh giá phần mềm.
+- Cân nhắc đồng thời hiệu năng, chi phí, cách ly và độ tin cậy.
+- Giữ vai trò đánh giá rủi ro và quyết định phát hành của con người khi dùng công cụ AI.
 
-### Những Gì Học Được
+### Định hướng áp dụng
 
-#### Tư Duy Thiết Kế
+Trong dự án FCAJ Hackathon System, những nội dung này có thể được áp dụng khi làm rõ quyền truy cập của các thành phần, thiết kế khả năng quan sát và xác định bằng chứng kiểm thử cho luồng AI. Đây là hướng áp dụng dự kiến.
 
-- **Business-first approach**: Luôn bắt đầu từ business domain, không phải technology
-- **Ubiquitous language**: Importance của common vocabulary giữa business và tech teams
-- **Bounded contexts**: Cách identify và manage complexity trong large systems
+### Hình ảnh check-in
 
-#### Kiến Trúc Kỹ Thuật
+*[Sẽ bổ sung ảnh check-in cá nhân tại watch party.]*
 
-- **Event storming technique**: Phương pháp thực tế để mô hình hóa quy trình kinh doanh
-- Sử dụng **Event-driven communication** thay vì synchronous calls
-- **Integration patterns**: Hiểu khi nào dùng sync, async, pub/sub, streaming
-- **Compute spectrum**: Criteria chọn từ VM → containers → serverless
+### Tài liệu tham khảo
 
-#### Chiến Lược Hiện Đại Hóa
-
-- **Phased approach**: Không rush, phải có roadmap rõ ràng
-- **7Rs framework**: Nhiều con đường khác nhau tùy thuộc vào đặc điểm của mỗi ứng dụng
-- **ROI measurement**: Cost reduction + business agility
-
-### Ứng Dụng Vào Công Việc
-
-- **Áp dụng DDD** cho project hiện tại: Event storming sessions với business team
-- **Refactor microservices**: Sử dụng bounded contexts để identify service boundaries
-- **Implement event-driven patterns**: Thay thế một số sync calls bằng async messaging
-- **Serverless adoption**: Pilot AWS Lambda cho một số use cases phù hợp
-- **Try Amazon Q Developer**: Integrate vào development workflow để boost productivity
-
-### Trải nghiệm trong event
-
-Tham gia workshop **“GenAI-powered App-DB Modernization”** là một trải nghiệm rất bổ ích, giúp tôi có cái nhìn toàn diện về cách hiện đại hóa ứng dụng và cơ sở dữ liệu bằng các phương pháp và công cụ hiện đại. Một số trải nghiệm nổi bật:
-
-#### Học hỏi từ các diễn giả có chuyên môn cao
-- Các diễn giả đến từ AWS và các tổ chức công nghệ lớn đã chia sẻ **best practices** trong thiết kế ứng dụng hiện đại.
-- Qua các case study thực tế, tôi hiểu rõ hơn cách áp dụng **Domain-Driven Design (DDD)** và **Event-Driven Architecture** vào các project lớn.
-
-#### Trải nghiệm kỹ thuật thực tế
-- Tham gia các phiên trình bày về **event storming** giúp tôi hình dung cách **mô hình hóa quy trình kinh doanh** thành các domain events.
-- Học cách **phân tách microservices** và xác định **bounded contexts** để quản lý sự phức tạp của hệ thống lớn.
-- Hiểu rõ trade-offs giữa **synchronous và asynchronous communication** cũng như các pattern tích hợp như **pub/sub, point-to-point, streaming**.
-
-#### Ứng dụng công cụ hiện đại
-- Trực tiếp tìm hiểu về **Amazon Q Developer**, công cụ AI hỗ trợ SDLC từ lập kế hoạch đến maintenance.
-- Học cách **tự động hóa code transformation** và pilot serverless với **AWS Lambda**, từ đó nâng cao năng suất phát triển.
-
-#### Kết nối và trao đổi
-- Workshop tạo cơ hội trao đổi trực tiếp với các chuyên gia, đồng nghiệp và team business, giúp **nâng cao ngôn ngữ chung (ubiquitous language)** giữa business và tech.
-- Qua các ví dụ thực tế, tôi nhận ra tầm quan trọng của **business-first approach**, luôn bắt đầu từ nhu cầu kinh doanh thay vì chỉ tập trung vào công nghệ.
-
-#### Bài học rút ra
-- Việc áp dụng DDD và event-driven patterns giúp giảm **coupling**, tăng **scalability** và **resilience** cho hệ thống.
-- Chiến lược hiện đại hóa cần **phased approach** và đo lường **ROI**, không nên vội vàng chuyển đổi toàn bộ hệ thống.
-- Các công cụ AI như Amazon Q Developer có thể **boost productivity** nếu được tích hợp vào workflow phát triển hiện tại.
-
-#### Một số hình ảnh khi tham gia sự kiện
-* Thêm các hình ảnh của các bạn tại đây
-> Tổng thể, sự kiện không chỉ cung cấp kiến thức kỹ thuật mà còn giúp tôi thay đổi cách tư duy về thiết kế ứng dụng, hiện đại hóa hệ thống và phối hợp hiệu quả hơn giữa các team.
+- [AWS Cloud and AI Day Hanoi](https://aws.amazon.com/vi/events/cloud-day-hanoi/)
+- [Thông tin watch party TP.HCM](https://apj.awsevents.com/sites/aws-cloud-day-hanoi-watch-party-attendee)
+- [Bộ Khoa học và Công nghệ — nội dung khai mạc](https://mst.gov.vn/ai-viet-nam-tu-mo-rong-ha-tang-den-bai-toan-bien-cong-nghe-thanh-gia-tri-19726093007364899.htm)
+- [Bài ghi nhận sự kiện của thành viên cùng nhóm](https://nauppnouv.github.io/fcj-workshop-template/4-eventparticipated/4.2-event2/)
