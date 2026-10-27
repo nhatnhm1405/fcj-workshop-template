@@ -1,126 +1,66 @@
 ---
-title: "Event 1"
-date: 2024-01-01
+title: "Buildrathon Kickoff: Code the Future with CMC Global"
+date: 2026-09-26
 weight: 1
 chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
+### Event Information
 
-# Summary Report: “GenAI-powered App-DB Modernization workshop”
+- **Date:** 26 September 2026
+- **Published start time:** 9:00 a.m. (UTC+7)
+- **Location:** Bitexco Financial Tower, Ho Chi Minh City
+- **Role:** Attendee
+- **Event page:** [Buildrathon Kickoff: Code the Future with CMC Global](https://luma.com/8fe9vvps)
 
-### Event Objectives
+### Overview
 
-- Share best practices in modern application design
-- Introduce Domain-Driven Design (DDD) and event-driven architecture
-- Provide guidance on selecting the right compute services
-- Present AI tools to support the development lifecycle
+The kickoff introduced the Buildrathon program and its direction, connecting cloud and AI learning with the speakers' practical experience. Alongside the program introduction, a technical session illustrated how an AI application can be organized into components.
 
 ### Speakers
 
-- **Jignesh Shah** – Director, Open Source Databases
-- **Erica Liu** – Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** – Assc. Specialist SA, Serverless Amazon Web Services
+| Speaker | Listed role | Topic |
+| --- | --- | --- |
+| Nguyễn Gia Hưng | Head of Solutions Architect, AWS Vietnam and Cambodia | Introduced the program, its purpose and the direction of Buildrathon. |
+| Bùi Nhật Trường | Tech Lead, CMC Global | Presented a technical example of an AI-powered Slack bot architecture. |
 
-### Key Highlights
+### Main Topics
 
-#### Identifying the drawbacks of legacy application architecture
+#### Introducing Buildrathon
 
-- Long product release cycles → Lost revenue/missed opportunities  
-- Inefficient operations → Reduced productivity, higher costs  
-- Non-compliance with security regulations → Security breaches, loss of reputation  
+The opening session presented the context of the Buildrathon challenge, its objectives and intended outcomes. It also connected cloud and AI skills development with investment in talent, infrastructure and future capabilities in Vietnam.
 
-#### Transitioning to modern application architecture – Microservices
+#### Market Slack Bot architecture example
 
-Migrating to a modular system — each function is an **independent service** communicating via **events**, built on three core pillars:
+The technical presentation introduced a diagram called **Market Slack Bot**. The example can be understood through its components and responsibilities:
 
-- **Queue Management**: Handle asynchronous tasks  
-- **Caching Strategy**: Optimize performance  
-- **Message Handling**: Flexible inter-service communication  
+| Component | Illustrated role |
+| --- | --- |
+| Slack | Receives mentions, direct messages and conversation context. |
+| Socket Mode / WebSocket | Connects Slack to the bot workflow. |
+| Response gate | Controls the response before the next processing step. |
+| Claude Code | Processing component with output illustrated as `print · JSON`. |
+| `SOUL.md` and Memory | Voice and scope configuration and conversation context. |
+| Bot schedule, internal API, cron and database | Scheduled tasks, internal application functions and associated data storage. |
 
-#### Domain-Driven Design (DDD)
+An AI architecture can be assessed by following how a request enters the system, how the response is controlled, where context is stored and how scheduled tasks are organized.
 
-- **Four-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts  
-- **Bookstore case study**: Demonstrates real-world DDD application  
-- **Context mapping**: 7 patterns for integrating bounded contexts  
+### Lessons Learned
 
-#### Event-Driven Architecture
+- Start with the program's objective and scope before selecting a technical solution.
+- Separate an AI application into request handling, processing, context management and scheduled work.
+- Consider how the components interact rather than focusing only on the AI model.
 
-- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming  
-- **Benefits**: Loose coupling, scalability, resilience  
-- **Sync vs async comparison**: Understanding the trade-offs  
+### Applying the Learning
 
-#### Compute Evolution
+I can use this example as a starting point for exploring conversation context and scheduled tasks in a learning project. This is a direction for further study.
 
-- **Shared Responsibility Model**: EC2 → ECS → Fargate → Lambda  
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value  
-- **Functions vs Containers**: Criteria for appropriate choice  
+### Check-in Photos
 
-#### Amazon Q Developer
+*[My event check-in photos will be added later.]*
 
-- **SDLC automation**: From planning to maintenance  
-- **Code transformation**: Java upgrade, .NET modernization  
-- **AWS Transform agents**: VMware, Mainframe, .NET migration  
+### References
 
-### Key Takeaways
-
-#### Design Mindset
-
-- **Business-first approach**: Always start from the business domain, not the technology  
-- **Ubiquitous language**: Importance of a shared vocabulary between business and tech teams  
-- **Bounded contexts**: Identifying and managing complexity in large systems  
-
-#### Technical Architecture
-
-- **Event storming technique**: Practical method for modeling business processes  
-- Use **event-driven communication** instead of synchronous calls  
-- **Integration patterns**: When to use sync, async, pub/sub, streaming  
-- **Compute spectrum**: Criteria for choosing between VM, containers, and serverless  
-
-#### Modernization Strategy
-
-- **Phased approach**: No rushing — follow a clear roadmap  
-- **7Rs framework**: Multiple modernization paths depending on the application  
-- **ROI measurement**: Cost reduction + business agility  
-
-### Applying to Work
-
-- **Apply DDD** to current projects: Event storming sessions with business teams  
-- **Refactor microservices**: Use bounded contexts to define service boundaries  
-- **Implement event-driven patterns**: Replace some sync calls with async messaging  
-- **Adopt serverless**: Pilot AWS Lambda for suitable use cases  
-- **Try Amazon Q Developer**: Integrate into the dev workflow to boost productivity  
-
-### Event Experience
-
-Attending the **“GenAI-powered App-DB Modernization”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
-
-#### Learning from highly skilled speakers
-- Experts from AWS and major tech organizations shared **best practices** in modern application design.  
-- Through real-world case studies, I gained a deeper understanding of applying **DDD** and **Event-Driven Architecture** to large projects.  
-
-#### Hands-on technical exposure
-- Participating in **event storming** sessions helped me visualize how to **model business processes** into domain events.  
-- Learned how to **split microservices** and define **bounded contexts** to manage large-system complexity.  
-- Understood trade-offs between **synchronous and asynchronous communication** and integration patterns like **pub/sub, point-to-point, streaming**.  
-
-#### Leveraging modern tools
-- Explored **Amazon Q Developer**, an AI tool for SDLC support from planning to maintenance.  
-- Learned to **automate code transformation** and pilot serverless with **AWS Lambda** to improve productivity.  
-
-#### Networking and discussions
-- The workshop offered opportunities to exchange ideas with experts, peers, and business teams, enhancing the **ubiquitous language** between business and tech.  
-- Real-world examples reinforced the importance of the **business-first approach** rather than focusing solely on technology.  
-
-#### Lessons learned
-- Applying DDD and event-driven patterns reduces **coupling** while improving **scalability** and **resilience**.  
-- Modernization requires a **phased approach** with **ROI measurement**; rushing the process can be risky.  
-- AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
-
-#### Some event photos
-*Add your event photos here*  
-
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
+- [Buildrathon Kickoff event page](https://luma.com/8fe9vvps)
+- [Event notes by a fellow team member](https://nauppnouv.github.io/fcj-workshop-template/4-eventparticipated/4.1-event1/)
