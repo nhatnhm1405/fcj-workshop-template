@@ -23,9 +23,9 @@ Thông thường và cũng là tiêu chuẩn, một worklog được thực hi�
 
 **Tuần 4:** [Lưu trữ, S3, CloudFront và AWS Backup](1.4-week4/)
 
-**Tuần 5:** [Làm công việc D...](1.5-week5/)
+**Tuần 5:** [Khởi động dự án và nền tảng bảo mật AWS](1.5-week5/)
 
-**Tuần 6:** [Làm công việc E...](1.6-week6/)
+**Tuần 6:** [Định hướng proposal và điều phối dự án](1.6-week6/)
 
 **Tuần 7:** [Làm công việc G...](1.7-week7/)
 
