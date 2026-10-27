@@ -1,44 +1,27 @@
 ---
 title: "Events Participated"
-date: 2024-01-01
+date: 2026-09-26
 weight: 4
 chapter: false
 pre: " <b> 4. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** for your report, including this warning.
-{{% /notice %}}
+During my internship, I attended professional events to learn more about cloud, AI and practical engineering experience.
 
-> In this section, you should list and describe in detail the events you have participated in during your internship or work experience.  
-> 
-> Each event should be presented in the format Event 1, Event 2, Event 3…, along with the following details:
-> * Event name
-> * Date and time
-> * Location (if applicable)
-> * Your role in the event (attendee, event support, speaker, etc.)
-> * A brief description of the event’s content and main activities
-> * Outcomes or value gained (lessons learned, new skills, contribution to the team/project)
-> * This listing helps demonstrate your actual participation as well as the soft skills and experience you have gained from each event.
+### [Event 1: Buildrathon Kickoff](4.1-Event1/)
 
-During my internship, I participated in two events. Each one was a memorable experience that provided new, interesting, and useful knowledge, along with gifts and wonderful moments.
+- **Event:** Buildrathon Kickoff: Code the Future with CMC Global
+- **Time:** 9:00 a.m., 26 September 2026 (UTC+7)
+- **Location:** Bitexco Financial Tower, Ho Chi Minh City
+- **Role:** Attendee
+- **Topics:** Introduction to Buildrathon and a practical example of an AI-powered Slack bot architecture.
 
-### [Event 1](4.1-Event1/)  
-&emsp;**Event Name:** GenAI-powered App-DB Modernization workshop  
+### [Event 2: AWS Cloud and AI Day Hanoi — HCMC Watch Party](4.2-Event2/)
 
-&emsp;**Date & Time:** 09:00, August 13, 2025  
+- **Event:** AWS Cloud and AI Day Hanoi 2026 — HCMC Watch Party
+- **Date:** 29 September 2026
+- **Location:** 26th floor, Bitexco Financial Tower, 2 Hai Trieu Street, Ho Chi Minh City
+- **Role:** Watch party attendee
+- **Topics:** Keynote sessions on cloud and AI adoption, infrastructure, invisible engineering and validating AI-assisted software.
 
-&emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
-
-&emsp;**Role:** Attendee  
-
----
-
-### [Event 2](4.2-Event2/)  
-&emsp;**Event Name:** GenAI-powered App-DB Modernization workshop  
-
-&emsp;**Date & Time:** 09:00, August 13, 2025  
-
-&emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
-
-&emsp;**Role:** Attendee  
+My check-in photos for each event will be added later. Further events will be added when their details are available.
