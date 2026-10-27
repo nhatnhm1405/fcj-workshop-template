@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 1.6. </b> "
 ---
 
-Trong tuần 6 (19–23/10/2026), tôi tập trung xác định phạm vi proposal và điều phối các nhóm việc với vai trò tech lead. Dự án hướng đến nâng cấp SEAL trên AWS và nghiên cứu tích hợp AI local. Bảng dưới sắp xếp các hoạt động chuẩn bị theo ngày; kiến trúc, dịch vụ và kịch bản demo vẫn là đề xuất cần triển khai và kiểm chứng.
+Trong tuần 6 thực tập (19–23/10/2026), tương ứng với Week 1 của dự án, tôi tập trung xác định phạm vi proposal và điều phối các nhóm việc với vai trò tech lead. Dự án hướng đến nâng cấp SEAL trên AWS và nghiên cứu tích hợp AI local. Bảng dưới sắp xếp các hoạt động chuẩn bị theo ngày; kiến trúc, dịch vụ và kịch bản demo vẫn là đề xuất cần triển khai và kiểm chứng.
 
 ### Mục tiêu tuần 6
 

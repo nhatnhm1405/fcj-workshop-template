@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 1.6. </b> "
 ---
 
-During Week 6 (19–23 October 2026), I focused on proposal scope and coordination as tech lead. The project aims to upgrade SEAL on AWS and investigate local AI integration. The table organizes preparation activities by day; the architecture, services and demo scenario remain proposals to be implemented and validated.
+During internship Week 6 (19–23 October 2026), corresponding to project Week 1, I focused on proposal scope and coordination as tech lead. The project aims to upgrade SEAL on AWS and investigate local AI integration. The table organizes preparation activities by day; the architecture, services and demo scenario remain proposals to be implemented and validated.
 
 ### Week 6 Objectives
 
