@@ -17,11 +17,11 @@ Thông thường và cũng là tiêu chuẩn, một worklog được thực hi�
 
 **Tuần 1:** [Làm quen với AWS và các dịch vụ cơ bản trong AWS](1.1-week1/)
 
-**Tuần 2:** [Làm công việc A...](1.2-week2/)
+**Tuần 2:** [Mạng AWS, VPC và Hybrid DNS](1.2-week2/)
 
-**Tuần 3:** [Làm công việc B...](1.3-week3/)
+**Tuần 3:** [Kết nối VPC, EC2 và AWS Cloud and AI Day](1.3-week3/)
 
-**Tuần 4:** [Làm công việc C...](1.4-week4/)
+**Tuần 4:** [Lưu trữ, S3, CloudFront và AWS Backup](1.4-week4/)
 
 **Tuần 5:** [Làm công việc D...](1.5-week5/)
 
