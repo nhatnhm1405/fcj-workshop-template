@@ -23,7 +23,7 @@ home = [ "HTML", "RSS", "JSON"]
   
 [Languages]
 [Languages.en]
-title = "Internship Report"
+title = "FCAJ Internship Report"
 weight = 1
 languageName = "English"
 
