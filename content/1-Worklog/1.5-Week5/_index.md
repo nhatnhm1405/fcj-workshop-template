@@ -1,57 +1,41 @@
 ---
 title: "Week 5 Worklog"
-date: 2024-01-01
-weight: 1
+date: 2026-10-12
+weight: 5
 chapter: false
 pre: " <b> 1.5. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
+During Week 5 (12–16 October 2026), I began preparing the FCAJ Hackathon System as tech lead. The team planned to build on the existing SEAL system while I revisited AWS shared responsibility, IAM and cost management. Preparation activities are organized by day for presentation; documented milestones are linked in the table.
 
-### Week 5 Objectives:
+### Week 5 Objectives
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+- Define the direction for developing the FCAJ Hackathon System from SEAL.
+- Review the inherited scope, possible AWS use and initial work areas.
+- Study shared responsibility, IAM policies and roles, and cloud cost considerations.
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Daily Worklog
 
+| Day | Work | Start Date | Completion Date | References |
+| --- | --- | --- | --- | --- |
+| Monday | Reviewed the hackathon management problem and the idea of using the existing system as the project foundation. Studied the Shared Responsibility Model to distinguish AWS security responsibilities from those of the team. | 12 October 2026 | 12 October 2026 | [Project repository](https://github.com/nhatnhm1405/fcaj-hackathon-system); [Shared Responsibility Model](https://www.youtube.com/watch?v=tsobAlSg19g) |
+| Tuesday | Initialized the repository from the SEAL project and updated the README to reflect the FCAJ Hackathon direction. Reviewed existing application components as a basis for planning. | 13 October 2026 | 13 October 2026 | [Initial commit](https://github.com/nhatnhm1405/fcaj-hackathon-system/commit/3547942); [README direction update](https://github.com/nhatnhm1405/fcaj-hackathon-system/commit/f42a168) |
+| Wednesday | Created issues for the SEAL-to-FCAJ technical rename and AWS architecture ideas, and made a commit renaming technical identifiers. Reviewed IAM policies and roles in relation to proposed resource permissions. | 14 October 2026 | 14 October 2026 | [Issue #1](https://github.com/nhatnhm1405/fcaj-hackathon-system/issues/1); [Issue #2](https://github.com/nhatnhm1405/fcaj-hackathon-system/issues/2); [Rename commit](https://github.com/nhatnhm1405/fcaj-hackathon-system/commit/3c0de1e3ee9f053c43bf58a355164f0e1ad039c2); [IAM](https://www.youtube.com/watch?v=N_vlJGAqZxo), [IAM Policy](https://www.youtube.com/watch?v=XXjEpIRWJBk), [IAM Role](https://www.youtube.com/watch?v=pJWANviu8QM) |
+| Thursday | Considered how EC2, VPC and S3 could support the system, and distinguished workload IAM permissions from application user roles. Reviewed how IAM roles allow workloads to access resources. | 15 October 2026 | 15 October 2026 | [Issue #2: AWS architecture](https://github.com/nhatnhm1405/fcaj-hackathon-system/issues/2); [Create IAM role](https://www.youtube.com/watch?v=j8Gj2DJtZUE), [Using IAM role](https://www.youtube.com/watch?v=Z0liKVSjt_Q); [IAM best practices](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html) |
+| Friday | Organized the work areas to prepare for the proposal: frontend, backend, infrastructure and AI. Reviewed cost optimization and identified Region, workload and operating hours as inputs to an estimate. | 16 October 2026 | 16 October 2026 | [Project repository](https://github.com/nhatnhm1405/fcaj-hackathon-system); [AWS Cost Optimization and Support](https://www.youtube.com/watch?v=IY61YlmXQe8); [AWS Budgets](https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-managing-costs.html) |
 
-### Week 5 Achievements:
+### Achievements
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+- Established the FCAJ Hackathon System repository based on SEAL and recorded its initial direction.
+- Created initial issues for the technical rename and AWS architecture ideas, and committed the rename for further work on the development branch.
+- Consolidated shared responsibility and IAM concepts, along with inputs needed for a cost estimate.
 
-* Successfully created and configured an AWS Free Tier account.
+### Lessons Learned
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+- Existing functionality should be distinguished from proposed AWS and AI improvements.
+- Application user roles and workload IAM permissions address different access questions.
+- Cost estimates need explicit workload, Region and operating-schedule assumptions.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+### Next Steps
 
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+Prepare the proposal and assign frontend, backend, infrastructure and AI work in Week 6.
