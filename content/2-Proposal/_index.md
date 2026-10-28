@@ -53,7 +53,7 @@ The platform employs a serverless AWS architecture to manage data from 5 Raspber
 
 ### 4. Technical Implementation
 **Implementation Phases**
-This project has two parts—setting up weather edge stations and building the weather platform—each following 4 phases:
+This project has two parts: setting up weather edge stations and building the weather platform. Each part follows four phases:
 - Build Theory and Draw Architecture: Research Raspberry Pi setup with ESP32 sensors and design the AWS serverless architecture (1 month pre-internship)
 - Calculate Price and Check Practicality: Use AWS Pricing Calculator to estimate costs and adjust if needed (Month 1).
 - Fix Architecture for Cost or Solution Fit: Tweak the design (e.g., optimize Lambda with Next.js) to stay cost-effective and usable (Month 2).

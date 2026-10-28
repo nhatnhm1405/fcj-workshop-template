@@ -20,10 +20,10 @@ Internship Week 7 (26–30 October 2026) corresponds to **Week 2 of the FCAJ Hac
 | Day | Work | Start Date | Completion Date | References |
 | --- | --- | --- | --- | --- |
 | Monday | Created a lead issue and four issues for frontend, Backend 1, Backend 2 and AI to assign the implementation phase. The lead issue records that the proposal and architecture drawing plan were prepared; sharing the files in the team workspace remains pending. | 26 October 2026 | 26 October 2026 | [Issue #11: Lead](https://github.com/nhatnhm1405/fcaj-hackathon-system/issues/11); [#12 Frontend](https://github.com/nhatnhm1405/fcaj-hackathon-system/issues/12); [#13 Backend 1](https://github.com/nhatnhm1405/fcaj-hackathon-system/issues/13); [#14 Backend 2](https://github.com/nhatnhm1405/fcaj-hackathon-system/issues/14); [#15 AI](https://github.com/nhatnhm1405/fcaj-hackathon-system/issues/15) |
-| Tuesday | [TO CONFIRM: add actual work and outcomes for 27 October.] | 27 October 2026 | — | [Issue #11](https://github.com/nhatnhm1405/fcaj-hackathon-system/issues/11) |
-| Wednesday | [TO UPDATE: record actual work after 28 October.] | 28 October 2026 | — | [Issue #11](https://github.com/nhatnhm1405/fcaj-hackathon-system/issues/11) |
-| Thursday | [TO UPDATE: record actual work after 29 October.] | 29 October 2026 | — | [Issue #11](https://github.com/nhatnhm1405/fcaj-hackathon-system/issues/11) |
-| Friday | [TO UPDATE: record actual work after 30 October.] | 30 October 2026 | — | [Issue #11](https://github.com/nhatnhm1405/fcaj-hackathon-system/issues/11) |
+| Tuesday | [TO CONFIRM: add actual work and outcomes for 27 October.] | 27 October 2026 | Not yet recorded | [Issue #11](https://github.com/nhatnhm1405/fcaj-hackathon-system/issues/11) |
+| Wednesday | [TO UPDATE: record actual work after 28 October.] | 28 October 2026 | Not yet recorded | [Issue #11](https://github.com/nhatnhm1405/fcaj-hackathon-system/issues/11) |
+| Thursday | [TO UPDATE: record actual work after 29 October.] | 29 October 2026 | Not yet recorded | [Issue #11](https://github.com/nhatnhm1405/fcaj-hackathon-system/issues/11) |
+| Friday | [TO UPDATE: record actual work after 30 October.] | 30 October 2026 | Not yet recorded | [Issue #11](https://github.com/nhatnhm1405/fcaj-hackathon-system/issues/11) |
 
 ### Results Recorded
 

@@ -53,7 +53,7 @@ Nền tảng áp dụng kiến trúc AWS Serverless để quản lý dữ liệu
 
 ### 4. Triển khai kỹ thuật  
 *Các giai đoạn triển khai*  
-Dự án gồm 2 phần — thiết lập trạm thời tiết biên và xây dựng nền tảng thời tiết — mỗi phần trải qua 4 giai đoạn:  
+Dự án gồm 2 phần: thiết lập trạm thời tiết biên và xây dựng nền tảng thời tiết. Mỗi phần trải qua 4 giai đoạn:  
 1. *Nghiên cứu và vẽ kiến trúc*: Nghiên cứu Raspberry Pi với cảm biến ESP32 và thiết kế kiến trúc AWS Serverless (1 tháng trước kỳ thực tập).  
 2. *Tính toán chi phí và kiểm tra tính khả thi*: Sử dụng AWS Pricing Calculator để ước tính và điều chỉnh (Tháng 1).  
 3. *Điều chỉnh kiến trúc để tối ưu chi phí/giải pháp*: Tinh chỉnh (ví dụ tối ưu Lambda với Next.js) để đảm bảo hiệu quả (Tháng 2).  

@@ -20,9 +20,9 @@ Trong thời gian thực tập, tôi đã tham gia hai sự kiện công nghệ 
 
 &emsp;**Nội dung và giá trị:** Tìm hiểu chương trình Buildrathon và ví dụ kiến trúc Slack bot ứng dụng AI. Bài chia sẻ giúp tôi nhìn ứng dụng theo các thành phần tiếp nhận yêu cầu, xử lý, quản lý ngữ cảnh và tác vụ theo lịch.
 
-### [Event 2: AWS Cloud and AI Day Hanoi 2026 — HCMC Watch Party](4.2-event2/)
+### [Event 2: AWS Cloud and AI Day Hanoi 2026 - HCMC Watch Party](4.2-event2/)
 
-&emsp;**Tên sự kiện:** AWS Cloud and AI Day Hanoi 2026 — HCMC Watch Party
+&emsp;**Tên sự kiện:** AWS Cloud and AI Day Hanoi 2026 - HCMC Watch Party
 
 &emsp;**Ngày:** 29/09/2026
 

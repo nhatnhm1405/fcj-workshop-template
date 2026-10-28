@@ -1,5 +1,5 @@
 ---
-title: "AWS Cloud and AI Day Hanoi 2026 — HCMC Watch Party"
+title: "AWS Cloud and AI Day Hanoi 2026 - HCMC Watch Party"
 date: 2026-09-29
 weight: 2
 chapter: false
@@ -69,9 +69,44 @@ Validation debt là phần kiểm chứng tồn đọng khi thay đổi được
 
 Trong dự án FCAJ Hackathon System, những nội dung này có thể được áp dụng khi làm rõ quyền truy cập của các thành phần, thiết kế khả năng quan sát và xác định bằng chứng kiểm thử cho luồng AI. Đây là hướng áp dụng dự kiến.
 
+### Hình ảnh sự kiện
+
+#### Không gian và hoạt động tại sự kiện
+
+{{< event-photo src="images/events/aws-cloud-day/watch-party-venue.jpg" alt="Không gian watch party AWS Cloud and AI Day tại TP.HCM." caption="Không gian watch party AWS Cloud and AI Day tại TP.HCM." >}}
+
+{{< event-photo src="images/events/aws-cloud-day/attendee-badge.jpg" alt="Thẻ tham dự AWS Cloud and AI Day." caption="Thẻ tham dự AWS Cloud and AI Day." >}}
+
+{{< event-photo src="images/events/aws-cloud-day/networking-area.jpg" alt="Khu vực giao lưu và ăn nhẹ của người tham dự." caption="Khu vực giao lưu và ăn nhẹ của người tham dự." >}}
+
+{{< event-photo src="images/events/aws-cloud-day/refreshments.jpg" alt="Bữa ăn nhẹ trong thời gian tham dự sự kiện." caption="Bữa ăn nhẹ trong thời gian tham dự sự kiện." >}}
+
+#### Nội dung các phiên chia sẻ
+
+{{< event-photo src="images/events/aws-cloud-day/speaker-introduction.jpg" alt="Màn hình giới thiệu diễn giả Eric Yeo." caption="Màn hình giới thiệu diễn giả Eric Yeo." >}}
+
+{{< event-photo src="images/events/aws-cloud-day/keynote-session.jpg" alt="Một phần trình bày keynote được phát tại watch party." caption="Một phần trình bày keynote được phát tại watch party." >}}
+
+{{< event-photo src="images/events/aws-cloud-day/classic-virtualization.jpg" alt="Slide minh họa mô hình ảo hóa truyền thống." caption="Slide minh họa mô hình ảo hóa truyền thống." >}}
+
+{{< event-photo src="images/events/aws-cloud-day/technical-talk.jpg" alt="Nội dung chia sẻ kỹ thuật được phát trên màn hình sự kiện." caption="Nội dung chia sẻ kỹ thuật được phát trên màn hình sự kiện." >}}
+
+{{< event-photo src="images/events/aws-cloud-day/security-agent-session.jpg" alt="Slide giới thiệu phiên AWS Security Agent: Proactive AppSec from Design to Deployment." caption="Slide giới thiệu phiên AWS Security Agent: Proactive AppSec from Design to Deployment." >}}
+
+{{< event-photo src="images/events/aws-cloud-day/security-testing-gap.jpg" alt="Slide về khoảng cách giữa tốc độ phát triển và kiểm thử bảo mật." caption="Slide về khoảng cách giữa tốc độ phát triển và kiểm thử bảo mật." >}}
+
+{{< event-photo src="images/events/aws-cloud-day/proactive-security.jpg" alt="Slide về bảo mật chủ động trong vòng đời phát triển phần mềm." caption="Slide về bảo mật chủ động trong vòng đời phát triển phần mềm." >}}
+
+{{< event-photo src="images/events/aws-cloud-day/guardrails-observability.jpg" alt="Slide đề cập enterprise guardrails và khả năng quan sát." caption="Slide đề cập enterprise guardrails và khả năng quan sát." >}}
+
+#### Phản hồi sự kiện
+
+{{< event-photo src="images/events/aws-cloud-day/survey-confirmation.jpg" alt="Màn hình xác nhận đã gửi phản hồi khảo sát." caption="Màn hình xác nhận đã gửi phản hồi khảo sát." >}}
+
+
 ### Tài liệu tham khảo
 
 - [AWS Cloud and AI Day Hanoi](https://aws.amazon.com/vi/events/cloud-day-hanoi/)
 - [Thông tin watch party TP.HCM](https://apj.awsevents.com/sites/aws-cloud-day-hanoi-watch-party-attendee)
-- [Bộ Khoa học và Công nghệ — nội dung khai mạc](https://mst.gov.vn/ai-viet-nam-tu-mo-rong-ha-tang-den-bai-toan-bien-cong-nghe-thanh-gia-tri-19726093007364899.htm)
+- [Bộ Khoa học và Công nghệ - nội dung khai mạc](https://mst.gov.vn/ai-viet-nam-tu-mo-rong-ha-tang-den-bai-toan-bien-cong-nghe-thanh-gia-tri-19726093007364899.htm)
 - [Bài ghi nhận sự kiện của thành viên cùng nhóm](https://nauppnouv.github.io/fcj-workshop-template/4-eventparticipated/4.2-event2/)

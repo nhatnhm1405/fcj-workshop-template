@@ -1,5 +1,5 @@
 ---
-title: "AWS Cloud and AI Day Hanoi 2026 — HCMC Watch Party"
+title: "AWS Cloud and AI Day Hanoi 2026 - HCMC Watch Party"
 date: 2026-09-29
 weight: 2
 chapter: false
@@ -69,9 +69,44 @@ Validation debt is verification work that accumulates when changes are produced 
 
 In the FCAJ Hackathon System project, these ideas can inform component permissions, observability and test evidence for the AI workflow. This is a proposed direction for application.
 
+### Event Photos
+
+#### Event Venue and Activities
+
+{{< event-photo src="images/events/aws-cloud-day/watch-party-venue.jpg" alt="The AWS Cloud and AI Day watch party venue in Ho Chi Minh City." caption="The AWS Cloud and AI Day watch party venue in Ho Chi Minh City." >}}
+
+{{< event-photo src="images/events/aws-cloud-day/attendee-badge.jpg" alt="AWS Cloud and AI Day attendee badge." caption="AWS Cloud and AI Day attendee badge." >}}
+
+{{< event-photo src="images/events/aws-cloud-day/networking-area.jpg" alt="The refreshment and networking area for attendees." caption="The refreshment and networking area for attendees." >}}
+
+{{< event-photo src="images/events/aws-cloud-day/refreshments.jpg" alt="Refreshments during the event." caption="Refreshments during the event." >}}
+
+#### Presentations
+
+{{< event-photo src="images/events/aws-cloud-day/speaker-introduction.jpg" alt="Screen introducing speaker Eric Yeo." caption="Screen introducing speaker Eric Yeo." >}}
+
+{{< event-photo src="images/events/aws-cloud-day/keynote-session.jpg" alt="A keynote presentation shown at the watch party." caption="A keynote presentation shown at the watch party." >}}
+
+{{< event-photo src="images/events/aws-cloud-day/classic-virtualization.jpg" alt="Slide illustrating classic virtualization." caption="Slide illustrating classic virtualization." >}}
+
+{{< event-photo src="images/events/aws-cloud-day/technical-talk.jpg" alt="A technical presentation shown on the event screen." caption="A technical presentation shown on the event screen." >}}
+
+{{< event-photo src="images/events/aws-cloud-day/security-agent-session.jpg" alt="Title slide for AWS Security Agent: Proactive AppSec from Design to Deployment." caption="Title slide for AWS Security Agent: Proactive AppSec from Design to Deployment." >}}
+
+{{< event-photo src="images/events/aws-cloud-day/security-testing-gap.jpg" alt="Slide discussing the gap between development speed and security testing." caption="Slide discussing the gap between development speed and security testing." >}}
+
+{{< event-photo src="images/events/aws-cloud-day/proactive-security.jpg" alt="Slide on proactive security across the software development lifecycle." caption="Slide on proactive security across the software development lifecycle." >}}
+
+{{< event-photo src="images/events/aws-cloud-day/guardrails-observability.jpg" alt="Slide discussing enterprise guardrails and observability." caption="Slide discussing enterprise guardrails and observability." >}}
+
+#### Event Feedback
+
+{{< event-photo src="images/events/aws-cloud-day/survey-confirmation.jpg" alt="Confirmation that the survey response was submitted." caption="Confirmation that the survey response was submitted." >}}
+
+
 ### References
 
 - [AWS Cloud and AI Day Hanoi](https://aws.amazon.com/events/cloud-day-hanoi/)
 - [Ho Chi Minh City watch party information](https://apj.awsevents.com/sites/aws-cloud-day-hanoi-watch-party-attendee)
-- [Ministry of Science and Technology — opening remarks](https://mst.gov.vn/ai-viet-nam-tu-mo-rong-ha-tang-den-bai-toan-bien-cong-nghe-thanh-gia-tri-19726093007364899.htm)
+- [Ministry of Science and Technology - opening remarks](https://mst.gov.vn/ai-viet-nam-tu-mo-rong-ha-tang-den-bai-toan-bien-cong-nghe-thanh-gia-tri-19726093007364899.htm)
 - [Event notes by a fellow team member](https://nauppnouv.github.io/fcj-workshop-template/4-eventparticipated/4.2-event2/)

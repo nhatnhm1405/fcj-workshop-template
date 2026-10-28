@@ -20,9 +20,9 @@ During my internship, I attended two technology events to learn about cloud, AI 
 
 &emsp;**Topics and value:** Learned about Buildrathon and an AI-powered Slack bot architecture. The presentation illustrated how an application can be organized around request handling, processing, context management and scheduled work.
 
-### [Event 2: AWS Cloud and AI Day Hanoi 2026 — HCMC Watch Party](4.2-event2/)
+### [Event 2: AWS Cloud and AI Day Hanoi 2026 - HCMC Watch Party](4.2-event2/)
 
-&emsp;**Event name:** AWS Cloud and AI Day Hanoi 2026 — HCMC Watch Party
+&emsp;**Event name:** AWS Cloud and AI Day Hanoi 2026 - HCMC Watch Party
 
 &emsp;**Date:** 29 September 2026
 
