@@ -69,10 +69,6 @@ Validation debt is verification work that accumulates when changes are produced 
 
 In the FCAJ Hackathon System project, these ideas can inform component permissions, observability and test evidence for the AI workflow. This is a proposed direction for application.
 
-### Check-in Photos
-
-*[My check-in photos from the watch party will be added later.]*
-
 ### References
 
 - [AWS Cloud and AI Day Hanoi](https://aws.amazon.com/events/cloud-day-hanoi/)

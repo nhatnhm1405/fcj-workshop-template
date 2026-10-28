@@ -32,4 +32,4 @@ Trong thời gian thực tập, tôi đã tham gia hai sự kiện công nghệ 
 
 &emsp;**Nội dung và giá trị:** Theo dõi keynote về ứng dụng Cloud và AI, hạ tầng, invisible engineering và kiểm chứng phần mềm có AI hỗ trợ. Bài học trọng tâm là kết hợp tốc độ phát triển với quyền truy cập phù hợp, kiểm thử có bằng chứng và trách nhiệm của con người.
 
-Ảnh check-in của từng sự kiện sẽ được bổ sung. Sự kiện tiếp theo sẽ được cập nhật khi có thông tin.
+

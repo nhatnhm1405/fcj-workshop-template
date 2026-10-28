@@ -58,7 +58,17 @@ Tôi có thể dùng ví dụ này làm cơ sở để tìm hiểu cách quản 
 
 ### Hình ảnh check-in
 
-*[Sẽ bổ sung ảnh check-in cá nhân tại sự kiện.]*
+{{< event-photo src="images/events/buildrathon/IMG_6071.jpg" alt="Diễn giả trình bày trước người tham dự tại Buildrathon Kickoff." caption="Diễn giả trình bày trước người tham dự tại Buildrathon Kickoff." >}}
+
+{{< event-photo src="images/events/buildrathon/IMG_6074.jpg" alt="Slide về quá trình đầu tư của AWS tại Việt Nam." caption="Slide về quá trình đầu tư của AWS tại Việt Nam." >}}
+
+{{< event-photo src="images/events/buildrathon/IMG_6077.jpg" alt="Phần chia sẻ kỹ thuật về kiến trúc Market Slack Bot." caption="Phần chia sẻ kỹ thuật về kiến trúc Market Slack Bot." >}}
+
+{{< event-photo src="images/events/buildrathon/IMG_6078.jpg" alt="Sơ đồ Market Slack Bot được trình bày tại sự kiện." caption="Sơ đồ Market Slack Bot được trình bày tại sự kiện." >}}
+
+{{< event-photo src="images/events/buildrathon/IMG_6089.jpg" alt="Ảnh nhóm tại sự kiện Buildrathon." caption="Ảnh nhóm tại sự kiện Buildrathon." >}}
+
+{{< event-photo src="images/events/buildrathon/IMG_6090.jpg" alt="Ảnh nhóm người tham dự tại Buildrathon Kickoff." caption="Ảnh nhóm người tham dự tại Buildrathon Kickoff." >}}
 
 ### Tài liệu tham khảo
 

@@ -58,7 +58,17 @@ I can use this example as a starting point for exploring conversation context an
 
 ### Check-in Photos
 
-*[My event check-in photos will be added later.]*
+{{< event-photo src="images/events/buildrathon/IMG_6071.jpg" alt="Presentation at the Buildrathon Kickoff." caption="Presentation at the Buildrathon Kickoff." >}}
+
+{{< event-photo src="images/events/buildrathon/IMG_6074.jpg" alt="Slide on AWS investment in Vietnam." caption="Slide on AWS investment in Vietnam." >}}
+
+{{< event-photo src="images/events/buildrathon/IMG_6077.jpg" alt="Technical presentation on the Market Slack Bot architecture." caption="Technical presentation on the Market Slack Bot architecture." >}}
+
+{{< event-photo src="images/events/buildrathon/IMG_6078.jpg" alt="Market Slack Bot diagram shown at the event." caption="Market Slack Bot diagram shown at the event." >}}
+
+{{< event-photo src="images/events/buildrathon/IMG_6089.jpg" alt="Group photo at the Buildrathon event." caption="Group photo at the Buildrathon event." >}}
+
+{{< event-photo src="images/events/buildrathon/IMG_6090.jpg" alt="Group photo of Buildrathon Kickoff attendees." caption="Group photo of Buildrathon Kickoff attendees." >}}
 
 ### References
 

@@ -32,4 +32,4 @@ During my internship, I attended two technology events to learn about cloud, AI 
 
 &emsp;**Topics and value:** Followed the keynote on cloud and AI adoption, infrastructure, invisible engineering and validation of AI-assisted software. A key lesson was to pair development speed with appropriate access controls, evidence-based testing and human accountability.
 
-My check-in photos for each event will be added later. Further events will be added when details are available.
+

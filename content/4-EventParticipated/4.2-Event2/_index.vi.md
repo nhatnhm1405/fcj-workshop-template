@@ -69,10 +69,6 @@ Validation debt là phần kiểm chứng tồn đọng khi thay đổi được
 
 Trong dự án FCAJ Hackathon System, những nội dung này có thể được áp dụng khi làm rõ quyền truy cập của các thành phần, thiết kế khả năng quan sát và xác định bằng chứng kiểm thử cho luồng AI. Đây là hướng áp dụng dự kiến.
 
-### Hình ảnh check-in
-
-*[Sẽ bổ sung ảnh check-in cá nhân tại watch party.]*
-
 ### Tài liệu tham khảo
 
 - [AWS Cloud and AI Day Hanoi](https://aws.amazon.com/vi/events/cloud-day-hanoi/)
