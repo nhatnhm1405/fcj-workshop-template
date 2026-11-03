@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 4. </b> "
 ---
 
-Trong thời gian thực tập, tôi đã tham gia hai sự kiện công nghệ để tìm hiểu thêm về Cloud, AI và kinh nghiệm kỹ thuật từ cộng đồng.
+Trong thời gian thực tập, tôi đã tham gia ba sự kiện công nghệ để tìm hiểu thêm về Cloud, AI và kinh nghiệm kỹ thuật từ cộng đồng.
 
 ### [Event 1: Buildrathon Kickoff](4.1-event1/)
 
@@ -33,3 +33,14 @@ Trong thời gian thực tập, tôi đã tham gia hai sự kiện công nghệ 
 &emsp;**Nội dung và giá trị:** Theo dõi keynote về ứng dụng Cloud và AI, hạ tầng, invisible engineering và kiểm chứng phần mềm có AI hỗ trợ. Bài học trọng tâm là kết hợp tốc độ phát triển với quyền truy cập phù hợp, kiểm thử có bằng chứng và trách nhiệm của con người.
 
 
+### [Event 3: AWS First Cloud AI Journey Community Day 2026](4.3-event3/)
+
+&emsp;**Event name:** AWS First Cloud AI Journey Community Day 2026
+
+&emsp;**Date and time:** Saturday, 31 October 2026, 9:00 a.m. to 12:00 p.m. (UTC+7)
+
+&emsp;**Location:** 26th floor, Bitexco Financial Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City
+
+&emsp;**Role:** Attendee
+
+&emsp;**Overview:** Community talks and networking focused on technology trends, practical experience and ideas shared by industry professionals.

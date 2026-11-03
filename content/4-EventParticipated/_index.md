@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 4. </b> "
 ---
 
-During my internship, I attended two technology events to learn about cloud, AI and practical engineering experience from the community.
+During my internship, I attended three technology events to learn about cloud, AI and practical engineering experience from the community.
 
 ### [Event 1: Buildrathon Kickoff](4.1-event1/)
 
@@ -33,3 +33,14 @@ During my internship, I attended two technology events to learn about cloud, AI 
 &emsp;**Topics and value:** Followed the keynote on cloud and AI adoption, infrastructure, invisible engineering and validation of AI-assisted software. A key lesson was to pair development speed with appropriate access controls, evidence-based testing and human accountability.
 
 
+### [Event 3: AWS First Cloud AI Journey Community Day 2026](4.3-event3/)
+
+&emsp;**Event name:** AWS First Cloud AI Journey Community Day 2026
+
+&emsp;**Date and time:** Saturday, 31 October 2026, 9:00 a.m. to 12:00 p.m. (UTC+7)
+
+&emsp;**Location:** 26th floor, Bitexco Financial Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City
+
+&emsp;**Role:** Attendee
+
+&emsp;**Overview:** Community talks and networking focused on technology trends, practical experience and ideas shared by industry professionals.
